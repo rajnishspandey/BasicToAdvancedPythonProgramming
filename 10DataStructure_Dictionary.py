@@ -44,5 +44,37 @@ print(release_year_dict)
 
 print("Thriller" in release_year_dict)
 
+if "Thriller" in release_year_dict:
+    print("Found Thriller in the dictionary")
+
+#copy
+
+release_year_dict1 = release_year_dict.copy()
+#or
+#release_year_dict1 = dict(release_year_dict)
+print("release_year_dict1 copied :" ,release_year_dict1)
+
+#clear
+release_year_dict.clear()
+
+print(release_year_dict)
+print(release_year_dict1)
+
+#to list
+info  = list(release_year_dict1.items())
+print(info)
+
+print(list(release_year_dict1.keys()))
+print(list(release_year_dict1.values()))
+
+#update
+release_year_dict1.update({"Thriller":2023})
+print(release_year_dict1)
+
+
+
+
+
+
 
 
