@@ -17,8 +17,49 @@ List4 = [List,List2,List3,]
 print(List4)
 print(List4[1][2])
 
+
 #extend
 
-extended = List.extend([1])
-print(extended)
+List4.extend(["Pop",10]) #extend adds new item in the list element
+print(List4)
 
+#append
+List4.append(["Append Pop",10])  #append adds new element as a new nested list
+print(List4)
+
+#change the elemenet based on the index
+List4[0] = 'Changed the element'
+print(List4)
+
+#delete the element based on the index
+del(List4[0])
+print(List4)
+
+#split
+print("Hello World".split()) #be default it splits by SPace
+
+print(("Hello, How are you?").split(","))
+
+
+#copy and reference
+
+NewList = [1,2,3,4,5,6,7,]
+NewList2 = NewList
+print(NewList)
+print(NewList2)
+
+#insert
+NewList2.insert(1,"Inerted New Element")
+print(NewList2)
+
+#reverse
+NewList2.reverse()
+print(NewList)
+
+#sort
+a = [2,3,4,5,6,7]
+a.sort()
+print(a)
+
+a.sort(reverse=True)
+print(a)
