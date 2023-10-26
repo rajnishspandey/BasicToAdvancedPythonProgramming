@@ -1,4 +1,3 @@
-# Import the library
 class Circle(object):
     
     def __init__(self,radius = 3, colour ='Green'):
