@@ -70,11 +70,3 @@ print(list(release_year_dict1.values()))
 #update
 release_year_dict1.update({"Thriller":2023})
 print(release_year_dict1)
-
-
-
-
-
-
-
-
