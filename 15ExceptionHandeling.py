@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 result = 10/0
 print(result) #ZeroDivisionError
@@ -73,3 +74,6 @@ else:
     print("success a=",a)
 finally:
     print("Processing Complete")
+=======
+#exception
+>>>>>>> 20e9d744373626f780bb77f8525a1cfa01e3125d
