@@ -22,7 +22,6 @@ print(type(c))
 print('String converted to integer :',int(c))
 print('String converted to float :',float(c))
 
-
 print(bool(1))
 print(bool(0))
 
