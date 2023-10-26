@@ -126,9 +126,3 @@ album_year = 1983
 
 if not (album_year == 1984):
     print ("Album year is not 1984")
-
-
-
-
-
-
