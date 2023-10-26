@@ -4,3 +4,4 @@ with open('file.txt','r') as file:
         if not line:
             break #stop when lines are not found
         print(line)
+        
