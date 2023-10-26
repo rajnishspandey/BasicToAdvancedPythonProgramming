@@ -54,4 +54,3 @@ print('Element 2, 4,1 of Tuple :',Tuple3[2][4][1])
 #find the index of element
 element = ("Hello","It's me","can you hear me")
 print("Index of element :",element.index("It's me"))
-
