@@ -107,7 +107,6 @@ print(C)
 C.discard("Test") #if element not found it will ignore #C.remove("10") - if element not found it will give error
 print(C)
 
-
 #pop
 C.pop()
 print(C)
