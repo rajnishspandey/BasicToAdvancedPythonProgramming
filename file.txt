@@ -1,2 +1,2 @@
-Hello This is a testing file for file
-handling
+this is dummy text file for file input and output
+handeling 
