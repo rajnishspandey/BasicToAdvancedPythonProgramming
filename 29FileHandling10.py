@@ -120,6 +120,3 @@ with open(memReg,'r') as readFile:
 with open(exReg,'r') as readFile:
     print("Inactive Members: \n\n")
     print(readFile.read())
-                
-    
-
